@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/Layout.astro"
-title: "Third blog post"
-date: 2025-09-10
+title: "Eighth blog post"
+date: 2025-10-12
 ---
 
 Awesome!

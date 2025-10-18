@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Layout.astro"
+layout: "@layouts/Layout.astro"
 title: "First blog post"
 date: 2025-08-21
 ---
