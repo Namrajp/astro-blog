@@ -15,5 +15,17 @@ const { Content } = await render(post);
 ---
 
 <Layout frontmatter={post.data} title={post.data.title}>
+  <div class="my-4 space-x-2">
+    {
+      post.data.tags.map((tag) => (
+        <a
+          href={`/tag/${tag}`}
+          class="border border-black py-1 px-2 rounded-lg"
+        >
+          {tag}
+        </a>
+      ))
+    }
+  </div>
   <Content />
 </Layout>
